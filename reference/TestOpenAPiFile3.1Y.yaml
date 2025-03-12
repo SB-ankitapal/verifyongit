@@ -194,6 +194,22 @@ paths:
       operationId: lock-testing-5353
       x-stoplight:
         id: 800ch8gy5m2nr
+  /fortest/7870:
+    options:
+      summary: optionkr
+      tags: []
+      responses: {}
+      operationId: options-fortest-7870
+      x-stoplight:
+        id: tt8bv4lmvwqzj
+  /user/tyyio966:
+    link:
+      summary: linkkr
+      tags: []
+      responses: {}
+      operationId: link-user-tyyio966
+      x-stoplight:
+        id: 244o7giceisul
 components:
   schemas:
     User:
