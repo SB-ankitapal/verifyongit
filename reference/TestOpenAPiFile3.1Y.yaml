@@ -151,6 +151,31 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: ituzvjva70j6e
+  /users/test:
+    get:
+      summary: ForGetTest
+      tags: []
+      responses:
+        '100':
+          description: Continue
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Name:
+                    type: string
+                    x-stoplight:
+                      id: a8f2wk13hs7pz
+      operationId: get-users-test
+      x-stoplight:
+        id: 8va734ad9fdic
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: Address
+          description: TestAddress
 components:
   schemas:
     User:
