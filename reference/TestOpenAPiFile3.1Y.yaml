@@ -178,6 +178,14 @@ paths:
           in: query
           name: Address
           description: TestAddress
+  /user/tes123:
+    link:
+      summary: LinkUpdate
+      tags: []
+      responses: {}
+      operationId: link-user-tes123
+      x-stoplight:
+        id: f9ysd7yufzjgm
 components:
   schemas:
     User:
