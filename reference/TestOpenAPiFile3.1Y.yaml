@@ -178,6 +178,17 @@ paths:
                     type: string
                     x-stoplight:
                       id: hsbsajc653ypg
+        5XX:
+          description: Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Name2:
+                    type: string
+                    x-stoplight:
+                      id: g0upmwauoadhc
       operationId: get-users-test
       x-stoplight:
         id: 8va734ad9fdic
