@@ -167,6 +167,17 @@ paths:
                     type: string
                     x-stoplight:
                       id: a8f2wk13hs7pz
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Name2:
+                    type: string
+                    x-stoplight:
+                      id: hsbsajc653ypg
       operationId: get-users-test
       x-stoplight:
         id: 8va734ad9fdic
