@@ -186,6 +186,14 @@ paths:
       operationId: link-user-tes123
       x-stoplight:
         id: f9ysd7yufzjgm
+  /testing/5353:
+    lock:
+      summary: lockKr
+      tags: []
+      responses: {}
+      operationId: lock-testing-5353
+      x-stoplight:
+        id: 800ch8gy5m2nr
 components:
   schemas:
     User:
