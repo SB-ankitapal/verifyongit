@@ -4,6 +4,7 @@ x-stoplight:
 info:
   title: TestOpenAPiFile3.1Y
   version: '1.0'
+  description: knjbhbhjh
 servers:
   - url: 'http://localhost:3000'
 paths:
